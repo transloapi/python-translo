@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65.5.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyTranslo"
+version = "1.1"
+authors = [
+    { name="dannkunt", email="dannkunt@gmail.com" },
+]
+description = "Python Client Library for Translo API."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"github" = "https://github.com/dannkunt/PyTranslo"
+"rapidapi" = "https://rapidapi.com/armangokka/api/translo"
